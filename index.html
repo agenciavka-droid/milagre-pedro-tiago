@@ -371,7 +371,7 @@ section{ padding: 84px 0; }
 
 .donate-grid{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 22px;
   max-width: 1080px;
   margin: 0 auto;
@@ -379,6 +379,13 @@ section{ padding: 84px 0; }
 }
 
 .donate-card.vakinha{ background: var(--leaf-pale); border-color: var(--leaf-pale); }
+
+.donate-card.gofundme{ background: var(--dawn-soft); border-color: var(--dawn-soft); }
+
+.gofundme-link{
+  margin-top: auto;
+  padding-top: 6px;
+}
 
 .vakinha-link{
   margin-top: auto;
@@ -586,7 +593,7 @@ footer{
   .whatsapp-float{ width: 52px; height: 52px; right: 16px; bottom: 16px; font-size: 24px; }
 }
 
-@media (max-width: 920px) and (min-width: 761px){
+@media (max-width: 1180px) and (min-width: 761px){
   .donate-grid{ grid-template-columns: 1fr 1fr; }
 }
 
@@ -710,6 +717,15 @@ footer{
         <p class="small-note">ID da campanha: <strong>6193353</strong></p>
         <div class="vakinha-link">
           <a href="https://www.vakinha.com.br/vaquinha/cura-para-pedro-e-tiago?utm_source=social-shares&utm_medium=website&utm_campaign=whatsapp" target="_blank" rel="noopener" class="btn btn-primary" style="width:100%; justify-content:center;">Doar pela Vakinha →</a>
+        </div>
+      </div>
+
+      <div class="donate-card gofundme reveal">
+        <div class="donate-flag">🌐 GoFundMe</div>
+        <h3>Estamos no GoFundMe</h3>
+        <p style="opacity:.8; font-size:14.5px;">Você também pode contribuir através da nossa campanha oficial no GoFundMe.</p>
+        <div class="gofundme-link">
+          <a href="https://gofund.me/d0aaed368" target="_blank" rel="noopener" class="btn btn-primary" style="width:100%; justify-content:center;">Doar pelo GoFundMe →</a>
         </div>
       </div>
 
